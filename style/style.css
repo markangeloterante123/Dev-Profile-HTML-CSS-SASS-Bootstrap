@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
-html, body {
+html,
+body {
   padding: 0;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -376,7 +377,7 @@ header {
 
 .review-section {
   padding-top: 200px;
-  padding-bottom: 150px;
+  margin: auto 0;
 }
 
 .review-section .split img {
@@ -393,5 +394,198 @@ header {
 .review-section .split p {
   font-size: 18px;
   color: #666666;
+}
+
+.review-section .split ol {
+  padding-top: 35px;
+}
+
+.review-section .split ol li {
+  margin-left: -20px;
+  padding-bottom: 32px;
+}
+
+.review-section .split ol li a {
+  text-decoration: none;
+  color: #666666;
+}
+
+.review-section .split ol li a:hover {
+  color: #2f2f2f;
+}
+
+.review-section .split .btn-methhodology {
+  padding-top: 40px;
+}
+
+.review-section .sed-ut {
+  padding-top: 110px;
+  padding-bottom: 150px;
+}
+
+.review-section .sed-ut .review-title {
+  display: block;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #050708;
+  font-weight: 700;
+  padding-bottom: 60px;
+}
+
+.review-section .sed-ut p {
+  color: #666666;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+.review-section .sed-ut .sid-ut-row {
+  padding-top: 85px;
+}
+
+.review-section .sed-ut .sid-ut-row .col-lg-4 {
+  padding-bottom: 60px;
+}
+
+.review-section .sed-ut .sid-ut-row .col-lg-4 h4 {
+  color: #ff0000;
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 40px;
+}
+
+.review-section .sed-ut .sid-ut-row .col-lg-4 .split-text {
+  text-align: left !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.review-section .sed-ut .btn-review {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.progress-section {
+  background: url(/assets/hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.progress-section .progress-title {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 90px;
+}
+
+.progress-section .progress-title .e-blurb {
+  position: relative;
+  left: -40px;
+}
+
+.progress-section .progress-title h3 {
+  display: block;
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 50px;
+}
+
+.progress-section .progress-title p {
+  text-align: center;
+  color: #666666;
+}
+
+.progress-section .progress-card .card {
+  background-color: #ffffff;
+  padding: 56px 45px 40px 45px;
+  border-radius: 0;
+}
+
+.progress-section .progress-card .card img {
+  max-width: 70px;
+  margin: 0 auto;
+}
+
+.progress-section .progress-card .card .img-hover {
+  display: none;
+}
+
+.progress-section .progress-card .card h4 {
+  font-size: 30px;
+  color: #050708;
+  display: block;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: 700;
+}
+
+.progress-section .progress-card .card h6 {
+  font-size: 14px;
+  color: #bfbfbf;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.progress-section .progress-card .card p {
+  text-align: center;
+  font-size: 18px;
+  color: #666666;
+  padding-bottom: 40px;
+}
+
+.progress-section .progress-card .card .btn-card {
+  color: #ffffff;
+  background: url(/assets/hero.png);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+
+.progress-section .progress-card .card:hover {
+  background-color: #c40c08;
+}
+
+.progress-section .progress-card .card:hover .img-hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.progress-section .progress-card .card:hover .img-default {
+  display: none;
+}
+
+.progress-section .progress-card .card:hover h4 {
+  color: #d1d3d5;
+}
+
+.progress-section .progress-card .card:hover h6 {
+  color: #d1d3d5;
+}
+
+.progress-section .progress-card .card:hover p {
+  color: #d1d3d5;
+}
+
+.progress-section .progress-card .card:hover .btn-card {
+  background: #ff0000;
+  -webkit-box-shadow: -9px 12px 12px rgba(0, 0, 0, 0.2);
+          box-shadow: -9px 12px 12px rgba(0, 0, 0, 0.2);
 }
 /*# sourceMappingURL=style.css.map */
