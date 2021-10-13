@@ -25,7 +25,7 @@
     />
   </head>
   <body onload="load()">
-    <header class="container-fluid">
+    <header id="main-header" class="container-fluid">
       <nav class="main-nav">
         <div class="row">
           <div class="main-menu col-menu">
@@ -44,12 +44,45 @@
           </div>
         </div>
       </nav>
+      <!-- mobile header -->
+      <nav class="container-fluid mobile-nav">
+          <div class="mobile-logo">
+            <img src="assets/hd-logo.png" alt="" />
+          </div>
+
+          <div class="mobile-nav ">
+            <div class="split-mobile">
+              <a href="javascript:void(0)" class="openNav" onclick="openNav()"><i class="fas fa-bars fa-2x"></i></a>
+              <a href="javascript:void(0)" class="closeNav" onclick="closeNav()"><i class="fas fa-times fa-2x"></i></a>
+            </div>
+            <div class="split-mobile">
+              <a href="#signin" class="btn-mobile">SignIn</a>
+              <a href="#getStarted" class="btn-mobile btn-mobile-active">Get Started</a>
+            </div>
+          </div>
+          
+          <div class="mobile-menu">
+            <nav class="mobile-menu-nav">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Methodology</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          
+
+      </nav>
+
+
     </header>
 
     <section id="home" class="container-fluid hero-container">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-md-12 ">
             <img src="assets/icon.png" class="img-icon" alt="" />
             <h1>Lorem ipsum dolor sit amet consectetur</h1>
             <p>
@@ -58,7 +91,7 @@
             </p>
             <a href="#" class="btn-default">Get Started</a>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-md-12 images-holder">
             <img src="assets/video.png" alt="" />
           </div>
         </div>
@@ -438,6 +471,161 @@
         </div>
       </div>
     </section>
+
+    <section id="enterprenuer" class="container-fluid entreprenuer-section">
+      <div class="container">
+        <div class="text-enterprenuer">
+          <h2>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</h2>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+        </div>
+        <div class="row split-container">
+
+          <div class="col-lg-6 split pd-r">
+            <h3>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</h3>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+          </div>
+          <div class="col-lg-6 split pd-l">
+            <img src="assets/img (2).png" alt="">
+          </div>
+          
+          <div class="col-lg-6 split pd-r">
+            <img src="assets/Network.png" alt="">
+          </div>
+          <div class="col-lg-6 split pd-l">
+            <h3>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</h3>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+          </div>
+
+          <div class="col-lg-6 split pd-r">
+            <h3>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</h3>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+          </div>
+          <div class="col-lg-6 split pd-l">
+            <img src="assets/Image.png" alt="">
+          </div>
+
+          <div class="col-lg-6 split pd-r">
+            <img src="assets/Image (2).png" alt="">
+          </div>
+          <div class="col-lg-6 split pd-l">
+            <h3>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</h3>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+          </div>
+
+        </div>
+        <div class="entre-card">
+          <div class="title-container">
+            <h2>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque </h2>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+          </div>
+          <div class="row card-holder">
+            <div class="col-lg-4 card">
+                <img src="assets/img-card.png" alt="">
+                <h6>Lorem, ipsum dolor.</h6>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="col-lg-4 card">
+              <img src="assets/img-card.png" alt="">
+                <h6>Lorem, ipsum dolor.</h6>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="col-lg-4 card">
+              <img src="assets/img-card.png" alt="">
+                <h6>Lorem, ipsum dolor.</h6>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia </p>
+                <a href="#">Learn More</a>
+            </div>
+          </div>
+
+          <div class="entri-logo">
+            <h3>Lorem Ipsum Dolor Sit Amet Consectetur</h3>
+            <div class="images-logo">
+              <img src="assets/societe-generale_logo.png" alt="" />
+              <img src="assets/xtb_logo.png" alt="" />
+              <img src="assets/prorealtime-trading_logo.png" alt="" />
+              <img src="assets/binck-bank_logo.png" alt="" />
+              <img src="assets/degiro_logo.png" alt="" />
+            </div>
+          </div>
+
+          <div class="entri-rating">
+            <div class="star-rating">
+              <i class="fas fa-star fa-3x"></i>
+              <i class="fas fa-star fa-3x"></i>
+              <i class="fas fa-star fa-3x"></i>
+              <i class="fas fa-star fa-3x"></i>
+              <i class="fas fa-star fa-3x"></i>
+            </div>
+            <a href="#">97% des membres satisfaits sur 1214 témoignages</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <footer class="container-fluid footer">
+      <div class="container">
+        
+        <div class="footer-logo">
+          <div class="row">
+            <div class="col-lg-3 cta-logo">
+              <img src="assets/hd-logo.png" alt="" />
+            </div>
+            <div class="col-lg-9 cta-footer">
+              <p>Voir comment Entrepreneur peut vous aider à gagner en bours</p>
+              <a href="#" class="cta-btn">Get Started</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-menu">
+          <div class="row">
+            <div class="col-lg-3">
+              <nav class="footer-menu-nav">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Methodology</a></li>
+                  <li><a href="#">Product</a></li>
+                  <li><a href="#">Reviews</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="col-lg-9">
+                <p>
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                </p>
+                <div class="row legal-cta">
+                  <div class="col-lg-4">
+                    <a href="#">Terms an Condition</a>
+                  </div>
+                  <div class="col-lg-8">
+                    <a href="#">Legal Notices</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="row footer-cta-social">
+            
+          <div class="col-lg-6">
+            <a href="#">Copyright © 2020 Entrepreneur. All Rights Reserved.</a>
+          </div>
+          <div class="col-lg-6">
+            <div class="social-cta">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -48,3 +48,32 @@ const load = () =>{
     animate(text3, 100, 3600, 5000);
 }
 
+
+
+// header sticky
+
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("main-header");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+
+function openNav() {
+    document.querySelector(".mobile-menu").style.display = "flex";
+    document.querySelector(".openNav").style.display = "none";
+    document.querySelector(".closeNav").style.display = "flex";
+}
+  
+function closeNav() {
+    document.querySelector(".mobile-menu").style.display = "none";
+    document.querySelector(".openNav").style.display = "flex";
+    document.querySelector(".closeNav").style.display = "none";
+}
