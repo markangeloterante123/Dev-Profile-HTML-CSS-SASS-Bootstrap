@@ -308,7 +308,7 @@ header {
 }
 
 .hero-container {
-  background: url("/assets/hero.png");
+  background: url("../assets/hero.png");
   background-position: center;
   background-repeat: none;
   background-size: cover;
@@ -318,7 +318,7 @@ header {
 
 @media only screen and (max-width: 991px) {
   .hero-container {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8))), url("/assets/video.png");
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8))), url("../assets/video.png");
     background: linear-gradient(rgba(0, 0, 0, 0.8)), url("/assets/video.png");
     background-position: center;
     background-repeat: none;
